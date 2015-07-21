@@ -1,13 +1,13 @@
 
-public class Carro {
+public class Motocicleta {
 	
 	private String chassi;
 	private String montadora;
 	private String modelo;
 	private String tipo;
 	private String cor;
-	private String cambio;
-	private float motorizacao;
+	private int cilindrada;
+	private int capacidade_do_tanque;
 	private float preco;
 	
 	public String getChassi() {
@@ -40,23 +40,23 @@ public class Carro {
 	public void setCor(String cor) {
 		this.cor = cor;
 	}
-	public String getCambio() {
-		return cambio;
+	public int getCilindrada() {
+		return cilindrada;
 	}
-	public void setCambio(String cambio) {
-		this.cambio = cambio;
+	public void setCilindrada(int cilindrada) {
+		this.cilindrada = cilindrada;
 	}
-	public float getMotorizacao() {
-		return motorizacao;
+	public int getCapacidade_do_tanque() {
+		return capacidade_do_tanque;
 	}
-	public void setMotorizacao(float motorizacao) {
-		this.motorizacao = motorizacao;
+	public void setCapacidade_do_tanque(int capacidade_do_tanque) {
+		this.capacidade_do_tanque = capacidade_do_tanque;
 	}
 	public float getPreco() {
 		return preco;
 	}
 	public void setPreco(float preco) {
 		this.preco = preco;
-	}	
-	
+	}
+
 }
