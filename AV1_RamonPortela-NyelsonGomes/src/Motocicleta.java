@@ -7,7 +7,7 @@ public class Motocicleta {
 	private String tipo;
 	private String cor;
 	private int cilindrada;
-	private int capacidade_do_tanque;
+	private int capacidadeDoTanque;
 	private float preco;
 	
 	public String getChassi() {
@@ -47,10 +47,10 @@ public class Motocicleta {
 		this.cilindrada = cilindrada;
 	}
 	public int getCapacidade_do_tanque() {
-		return capacidade_do_tanque;
+		return capacidadeDoTanque;
 	}
-	public void setCapacidade_do_tanque(int capacidade_do_tanque) {
-		this.capacidade_do_tanque = capacidade_do_tanque;
+	public void setCapacidade_do_tanque(int capacidadeDoTanque) {
+		this.capacidadeDoTanque = capacidadeDoTanque;
 	}
 	public float getPreco() {
 		return preco;
