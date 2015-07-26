@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-
 public class Loja {
 	
 	private String endereco;
@@ -37,7 +36,7 @@ public class Loja {
 		Carro carro = new Carro();
 		
 		while(posicaoLista < this.estoqueDeCarros.size()){
-			carro = this.estoqueDeCarros.get(posicaoLista);			
+			carro = this.estoqueDeCarros.get(posicaoLista);
 			System.out.println("Chassi: "+carro.getChassi());
 			System.out.println("Montadora: "+carro.getMontadora());
 			System.out.println("Tipo: "+carro.getTipo());
@@ -75,7 +74,7 @@ public class Loja {
 			carro = this.estoqueDeCarros.get(posicaoLista);
 			if(carro.getChassi() == chassi){
 				System.out.println("Chassi: "+carro.getChassi());
-				System.out.println("Montadora: "+carro.getMontadora());
+				//System.out.println("Montadora: "+carro.getMontadora());
 				System.out.println("Tipo: "+carro.getTipo());
 				System.out.println("Modelo: "+carro.getModelo());
 				System.out.println("Cor: "+carro.getCor());
